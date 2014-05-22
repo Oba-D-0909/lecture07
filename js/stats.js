@@ -1,4 +1,4 @@
-var DATA_SIZE = 6;
+var DATA_SIZE = 8;
 
 var inputElements = [];
 var outputMean = null;
