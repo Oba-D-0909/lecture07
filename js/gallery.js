@@ -1,6 +1,6 @@
 var photoListElement = document.querySelector("#photos");
 
-var photoList = [
+var photoList = [//プログラムに使う写真のリストに写真を１枚追加しました。
     {src: "img/200705.png", title: "7月"},
     {src: "img/200806.png", title: "8月"},
 	  {src: "img/200902.png", title: "9月"},
@@ -24,7 +24,7 @@ var renderPhoto = function(index){
     return elm;
 };
 
-var showPhotos = function(){
+var showPhotos = function(){//写真を１つ追加したことにより、whileの中のphotoList.lengthの数が１つ増えたから。
     if(isReady()){
         var index = 0;
         while(index < photoList.length){
