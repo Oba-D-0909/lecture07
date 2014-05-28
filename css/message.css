@@ -22,3 +22,6 @@
 	border: none;
 	display: inline-block;
 }
+#calculator .hide{
+	display: none;
+}
